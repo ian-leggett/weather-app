@@ -1,0 +1,15 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A node weather app using Dark Sky API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Leggett",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "request": "^2.88.0"
+  }
+}
