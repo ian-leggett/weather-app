@@ -1,3 +1,2 @@
-# A Node weather app using Dark Sky API
-
+# A Node weather app using Dark Sky API and Map Box
  
