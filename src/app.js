@@ -50,29 +50,6 @@ app.get('/weather', (req, res) => {
   })
 })
 
-app.get('/about', (req, res) => {
-  res.render('about', {
-    title: 'About',
-    name: 'Ian Leggett',
-  })
-})
-
-app.get('/help', (req, res) => {
-  res.render('help', {
-    title: 'Help',
-    name: 'Ian Leggett',
-    message: 'This is the help section, how can I help',
-  })
-})
-
-app.get('/help/*', (req, res) => {
-  res.render('404', {
-    title: '404',
-    name: 'Ian Leggett',
-    errorMessage: 'Help article cannot be found'
-  })
-})
-
 app.get('*', (req, res) => {
   res.render('404', {
     title: '404',
@@ -82,5 +59,5 @@ app.get('*', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log('Server running on port 3000')
+  console.log(`Server running on http://localhost:${port}`)
 })
