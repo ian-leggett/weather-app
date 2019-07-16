@@ -1,4 +1,4 @@
-##Weather app in Node and Express
+## Weather app in Node and Express
 This weather app uses weather data from the Dark Sky API (https://darksky.net) and uses the Mapbox API (https://www.mapbox.com) for converting location text into geographic coordinates.
 
 ### Getting started
