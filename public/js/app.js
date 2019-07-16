@@ -14,8 +14,7 @@ const fetchWeather = (location) => {
         messageOne.textContent = ''
         messageTwo.textContent = data.error
       } else {
-
-        messageOne.textContent = `${data.location} : ${data.forecast}`
+        messageOne.textContent = `${data.forecast}`
       }
     })
   })
